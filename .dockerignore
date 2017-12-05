@@ -1,0 +1,8 @@
+*.db
+.vscode
+cache
+.DS_Store
+__pycache__
+public/
+output/
+node_modules/
