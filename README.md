@@ -1,4 +1,5 @@
 # mcc.cassiny.io
+[![Build Status](https://travis-ci.org/cassinyio/mcc-cassiny-io.svg?branch=master)](https://travis-ci.org/cassinyio/mcc-cassiny-io)
 
 > Open Source Admin Template
 
@@ -25,4 +26,11 @@ npm run e2e
 
 # run all tests
 npm test
+```
+
+# To build the website
+
+```bash
+docker build -f Dockerfile -t mcc-cassiny-io .
+docker run -it --rm -p 8043:8043 --name mcc-cassiny-io mcc-cassiny-io
 ```
